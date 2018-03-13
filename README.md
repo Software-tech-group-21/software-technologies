@@ -31,9 +31,7 @@ Note: **1 mile == 1.60934**** kilometers**
 Beverage Labels
 
 Write a program, which reads a food product
-**name**, **volume**, **energy content****per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content**
-for the **given volume** and print them
-on the console in the following format :
+**name**, **volume**, **energy content****per 100ml** and **sugar content per 100ml**. Calculate the **energy** and **sugar content** for the **given volume** and print them on the console in the following format :
         
 Name –  as per the input
         
