@@ -6,6 +6,7 @@ namespace Rectangle_Area
     {
         static void Main(string[] args)
         {
+
             //input
             float width = float.Parse(Console.ReadLine());
             float height = float.Parse(Console.ReadLine());
