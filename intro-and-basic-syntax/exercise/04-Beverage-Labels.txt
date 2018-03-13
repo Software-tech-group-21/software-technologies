@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string name = Console.ReadLine();
+        int volume = int.Parse(Console.ReadLine());
+        int energyContentPer100ML = int.Parse(Console.ReadLine());
+        int sugarcontentPer100ML = int.Parse(Console.ReadLine());
+        double totalEnergyContent = ((double)volume / 100) * energyContentPer100ML;
+        double totalSugarContent = ((double)volume / 100) * sugarcontentPer100ML;
+        Console.WriteLine($"{volume}ml {name}:");
+        Console.WriteLine($"{totalEnergyContent}kcal, {totalSugarContent}g sugars");
+    }
+}
+
