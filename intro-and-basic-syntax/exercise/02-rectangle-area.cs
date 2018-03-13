@@ -11,7 +11,7 @@ namespace Rectangle_Area
             float height = float.Parse(Console.ReadLine());
 
             //calculation
-            float area = width * height;
+            float rectangleArea = width * height;
 
             //output
             Console.WriteLine($"{area:F2}");
