@@ -1,19 +1,29 @@
 using System;
 
-namespace ConsoleApp1
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string name = Console.ReadLine();
-            int currentHealth = int.Parse(Console.ReadLine());
-            int maxHealth = int.Parse(Console.ReadLine());
-            int currentEnergy = int.Parse(Console.ReadLine());
-            int maxEnergy = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Name: {name}");
-            Console.WriteLine($"Health: |{new string('|', currentHealth)}{new string('.', maxHealth - currentHealth)}|");
-            Console.WriteLine($"Energy: |{new string('|', currentEnergy)}{new string('.', maxEnergy - currentEnergy)}|");
-        }
+        string name = Console.ReadLine();
+			
+        int currentHealth = int.Parse(Console.ReadLine());
+        int maxHealth = int.Parse(Console.ReadLine());
+			
+        int currentEnergy = int.Parse(Console.ReadLine());
+        int maxEnergy = int.Parse(Console.ReadLine());
+			
+	    //Prints the name of the character
+        Console.WriteLine($"Name: {name}");
+			
+	    //'|' represents a full health/energy point, '.' represents an empty one.
+		
+		// Prints the current health of the character. Has '|' as start and end.
+		//Then we print '|' equal to our currentHealth. After that, we print '.',
+		//which are equal to the difference between maxHealth and currentHealth. 
+        Console.WriteLine($"Health: |{new string('|', currentHealth)}{new string('.', maxHealth - currentHealth)}|");
+		
+		//Analogical to previous comment.
+        Console.WriteLine($"Energy: |{new string('|', currentEnergy)}{new string('.', maxEnergy - currentEnergy)}|");
     }
 }
