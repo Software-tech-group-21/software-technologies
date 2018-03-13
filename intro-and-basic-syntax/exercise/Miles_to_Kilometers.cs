@@ -6,9 +6,9 @@ namespace Debit_Card_Number
     {
         static void Main(string[] args)
         {
-            double a = double.Parse(Console.ReadLine());
-            double b = a * 1.60934;
-            Console.Write("{0:F2}", b);
+            double miles = double.Parse(Console.ReadLine());
+            double kilometers = miles * 1.60934;
+            Console.Write("{0:F2}", kilometers);
             Console.ReadLine();
         }
     }
