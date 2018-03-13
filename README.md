@@ -4,18 +4,15 @@ Software technologies repository
 ### Problem 1.               
 Debit Card Number
 
-Write a program, which receives **4****integers**
+Write a program, which receives **4** **integers**
 on the console and **prints them** in **4-digit debit card format**. See the
 examples below for the appropriate formatting.
 
 ### Problem 2.               
 Rectangle Area
 
-Write a program, which calculates a **rectangleís area**, based on its **width** and **height**. The **width** and **height** come as floating point numbers
-on the console, **formatted to the 2
-
-nd
-character after the decimal point**.
+Write a program, which calculates a **rectangle‚Äôs area**, based on its **width** and **height**. The **width** and **height** come as floating point numbers
+on the console, **formatted to the 2nd character after the decimal point**.
 
 ### Problem 4.               
 Beverage Labels
@@ -25,14 +22,14 @@ Write a program, which reads a food product
 for the **given volume** and print them
 on the console in the following format:
         
-Name ñ as per the input
+Name ‚Äì as per the input
         
-Volume ñ **integer**, **suffixed** by ì**ml**î (e.g. ì**220ml**î)
+Volume ‚Äì **integer**, **suffixed** by ‚Äú**ml**‚Äù (e.g. ‚Äú**220ml**‚Äù)
         
-Energy content ñ **integer**, **suffixed** by ì**kcal**î (e.g.
-ì**500kcal**î)
+Energy content ‚Äì **integer**, **suffixed** by ‚Äú**kcal**‚Äù (e.g.
+‚Äú**500kcal**‚Äù)
        
-Sugar content ñ **integer**, **suffixed** by ì**g**î (e.g. ì**30g**î)
+Sugar content ‚Äì **integer**, **suffixed** by ‚Äú**g**‚Äù (e.g. ‚Äú**30g**‚Äù)
 
 ### Problem 5.               
 * Character Stats
