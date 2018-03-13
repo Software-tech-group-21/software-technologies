@@ -7,13 +7,13 @@ namespace numbersformat
         public static void Main(string[] args)
         {
            //Input where we receive four integers.
-		   var num1 = int.Parse(Console.ReadLine());
+           var num1 = int.Parse(Console.ReadLine());
            var num2 = int.Parse(Console.ReadLine());
            var num3 = int.Parse(Console.ReadLine());
            var num4 = int.Parse(Console.ReadLine());
 		   
-		   //Here we print each one of the four numbers in a 4-digit debit card format with
-		   //all necessary trailing zeroes.
+           //Here we print each one of the four numbers in a 4-digit debit card format with
+           //all necessary trailing zeroes.
            Console.Write($"{num1:D4} {num2:D4} {num3:D4} {num4:D4}");
         }
     }
